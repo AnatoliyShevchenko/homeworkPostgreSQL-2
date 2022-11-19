@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <title>Reg</title>
+</head>
+<body>
+    <div id="form">
+        <form action="/ok", method="post">
+            <div class="todo">
+                <div id="todo1">Придумайте логин:</div>
+                <div><input type="text" placeholder="login" name="login" id="login"></div>
+            </div>
+            <div class="todo">
+                <div id="todo2">Придумайте пароль:</div>
+                <div><input type="password" placeholder="password" name="password" id="password"></div>
+            </div>
+            <div class="todo">
+                <div id="todo2">Подтвердите пароль:</div>
+                <div><input type="password" placeholder="password" name="ppassword" id="ppassword"></div>
+            </div>
+            <div><input type="submit" name="submit" id="submit"></div>
+        </form>  
+    </div>  
+</body>
+</html>

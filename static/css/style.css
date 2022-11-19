@@ -1,0 +1,11 @@
+#form
+{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 39%;
+    top: 33%;
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+}
